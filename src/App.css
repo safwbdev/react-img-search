@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+.full-width {
+  width: 100%;
+}
+.grey {
+  color: #6b747d;
+}
+.search-form {
+  display: inline-block;
+  width: 60%;
+  margin: 2em 0;
+}
+.search-form input {
+  width: 80%;
+  display: inline-block;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 40px;
+}
+.search-form button {
+  height: 40px;
+  display: inline-block;
+  width: 20%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  vertical-align: baseline;
+}
+.error {
+  color: red;
+}
+
+.profile {
+  font-size: 1.2em;
+}
+.profile img {
+  border-radius: 50%;
+  width: 20%;
+  margin-right: 0.5em;
+}
+.desc span {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 480px) {
+  .search-form {
+    width: 100%;
+  }
+  .search-form button span {
+    display: none;
+  }
+  .copyright {
+    margin: 0.5em 0;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .search-form button i {
+    display: none;
+  }
+}
+.image-card {
+  margin-bottom: 2em;
+}
+.image-details {
+  margin-bottom: 2em;
+}
+.image-page {
+  padding-top: 2em;
+}
